@@ -56,7 +56,7 @@ export default function HeroSection() {
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
                   src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
-                  alt="Креативный специалист"
+                  alt="Наталья Хомич"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -70,10 +70,13 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Алексей Иванов
+                  Наталья Хомич
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  Журналист · Продюсер · Диктор
+                </p>
+                <p className="text-base font-light text-white/60 max-w-md">
+                  Калининград — создаю медиаконтент, озвучиваю проекты и продюсирую творческие истории
                 </p>
                 <div className="flex gap-6 pt-4">
                   <a
