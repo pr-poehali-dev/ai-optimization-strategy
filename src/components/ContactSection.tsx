@@ -5,13 +5,15 @@ export default function ContactSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
           <div>
             <p className="text-white/40 text-sm uppercase tracking-widest mb-4">Контакты</p>
-            <h2 className="text-3xl md:text-5xl font-light text-white mb-6 leading-tight">
-              Давайте работать<br />
-              <span className="text-white/40">вместе</span>
-            </h2>
-            <p className="text-white/50 max-w-md leading-relaxed">
-              Открыта к творческим проектам, стажировкам в медиа и журналистским коллаборациям. Напишите — и мы найдём формат сотрудничества.
+            <p className="text-white/50 max-w-md leading-relaxed mb-4">
+              Открыта к творческим проектам, стажировкам в медиа и журналистским коллаборациям.
             </p>
+            <a
+              href="tel:+79316097743"
+              className="text-white text-2xl font-light hover:text-white/70 transition-colors"
+            >
+              +7 931 609 77 43
+            </a>
           </div>
 
           <div className="shrink-0">

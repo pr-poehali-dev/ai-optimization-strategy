@@ -2,10 +2,8 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/d7b92b2b-1206-4e9c-a442-364bd3d37503/bucket/3f5751f0-ee48-419b-b9de-4a13a307e4cf.jpg',
+  'https://cdn.poehali.dev/projects/d7b92b2b-1206-4e9c-a442-364bd3d37503/bucket/938e7b25-8c0c-4620-839a-3e0ddb7d627a.JPG',
 ];
 
 export default function HeroSection() {
@@ -55,7 +53,7 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
+                  src="https://cdn.poehali.dev/projects/d7b92b2b-1206-4e9c-a442-364bd3d37503/bucket/3f5751f0-ee48-419b-b9de-4a13a307e4cf.jpg"
                   alt="Наталья Хомич"
                   className="h-full w-full object-cover"
                 />
