@@ -14,31 +14,15 @@ export default function ContactSection() {
             </p>
           </div>
 
-          <div className="space-y-4 shrink-0">
+          <div className="shrink-0">
             <a
-              href="mailto:"
-              className="flex items-center gap-3 text-white/60 hover:text-white transition-colors group"
-            >
-              <span className="text-white/20 group-hover:text-white/40 transition-colors">→</span>
-              <span>Написать на почту</span>
-            </a>
-            <a
-              href="https://t.me/"
+              href="https://disk.yandex.ru/d/ZbjJOXkFwN2OIg"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-white/60 hover:text-white transition-colors group"
             >
               <span className="text-white/20 group-hover:text-white/40 transition-colors">→</span>
-              <span>Telegram</span>
-            </a>
-            <a
-              href="https://vk.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 text-white/60 hover:text-white transition-colors group"
-            >
-              <span className="text-white/20 group-hover:text-white/40 transition-colors">→</span>
-              <span>ВКонтакте</span>
+              <span>Посмотреть портфолио на Яндекс Диске</span>
             </a>
           </div>
         </div>
